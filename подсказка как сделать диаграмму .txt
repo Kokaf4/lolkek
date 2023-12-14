@@ -1,0 +1,31 @@
+Структура HTML:
+
+doctype
+html
+head
+meta
+title
+link
+body
+h1
+form#addRequestForm
+input#requestNumber
+input#requestDate
+textarea#requestDescription
+select#requestStatus
+button
+h2
+ul#requestList
+h2
+ul#completedRequestList
+script
+Взаимодействие JavaScript:
+
+Слушатель события DOMContentLoaded
+Получение формы и списков по ID
+Добавление слушателя события submit к форме
+Предотвращение стандартной отправки формы
+Получение значений полей формы
+Создание нового элемента списка
+Добавление элемента списка в соответствующий список в зависимости от статуса
+Сброс формы
